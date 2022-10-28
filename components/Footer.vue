@@ -93,7 +93,7 @@
                               <div class="widget-body">
                                   <div class="twetter-post-inner">
                                       <div class="footer-post-details">
-                                          @Layerdrops Take your web design to new heights with jironix. <br><a href="http://yhdj58.tp8/JK">http://yhdj58.tp8/JK</a>
+                                          @Ard Take your web design to new heights with jironix. <br><a href="http://yhdj58.tp8/JK">http://yhdj58.tp8/JK</a>
                                       </div>
                                       <div class="twetter-post">
                                           <span><i class="fa fa-twitter"></i></span>
@@ -106,11 +106,14 @@
                   </div>
               </div>
           </div>
-          <div class="footer-bottom">
-              <div class="footer-text text-center">
-                  <p>© copyright 2020 by Layerdrops.com</p>
-              </div>
-          </div>
+<!--          <div class="footer-bottom">-->
+<!--              <div class="footer-text text-center">-->
+<!--                  <p>© Copyright 2022 by www.1carat.top</p>-->
+<!--              </div>-->
+<!--          </div>-->
+        <div class="copyright-footer">
+          <p>© Copyright 2022 by www.1carat.top</p>
+        </div>
 
       </footer>
 
@@ -156,5 +159,15 @@
 </script>
 
 <style scoped>
-
+.copyright-footer{
+        position: fixed;
+        background-color: rgba(43, 166, 166, 0.5);
+        color: #FFF;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        height: 50px;
+        line-height: 100px;
+    }
 </style>

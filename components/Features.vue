@@ -126,9 +126,10 @@ with the largest diamond laboratories in the world, selling through their own to
 <style scoped>
 .tableLine {
     position: relative;
-    margin-top: 40px;
+    margin-top: 60px;
     /*align-content: center;*/
     width: 100%;
+  margin-bottom: 10vh;
     height: 1px;
     background-color: #d4d4d4;
     text-align: center;

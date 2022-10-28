@@ -931,6 +931,7 @@ label input[type=radio] {
     color: #0e0e0e;
     background: #ffe8a1;
 }
+
 .main-menu-wrap .btn:hover {
     border-color: #36324a;
     background: #36324a;
@@ -1034,7 +1035,7 @@ label input[type=radio] {
 }
 
 .banner-text-inner p {
-    margin-bottom: 50px;
+    margin-bottom: 500px;
 }
 
 .banner-text-inner .btn {
@@ -1069,6 +1070,8 @@ label input[type=radio] {
 .banner-image{
     -webkit-animation: bounce 1s ease-in-out 0s infinite alternate;
             animation: bounce 1s ease-in-out 0s infinite alternate;
+  margin-top: 300px;
+  margin-bottom: 10vh;
 }
 .main-header.sticky .logo .main-logo2 {
     display: none;
@@ -1085,7 +1088,7 @@ label input[type=radio] {
 }
 
 .banner-shape-inner .shape {
-    position: absolute;
+    position: relative;
     -webkit-animation-duration: 3s;
             animation-duration: 3s;
 }

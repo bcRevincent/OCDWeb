@@ -1,7 +1,7 @@
 <template>
   <div class="todayPrice">
     <h2> <font color="#fff"> Today Average Price: </font></h2>
-    <h2>700 $</h2>
+    <h2><font color="#DAA520"> 700 $ </font></h2>
     <div class="tableLine"></div>
   </div>
 </template>
@@ -31,6 +31,7 @@ export default {
 .tableLine {
     position: relative;
     margin-top: 60px;
+    margin-bottom: 100vh;
     /*align-content: center;*/
     width: 100%;
     height: 1px;

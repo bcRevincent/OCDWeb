@@ -3,7 +3,7 @@
     <vue-particles
       id="particles-js"
       color="#fff"
-      :particleOpacity="0.7"
+      :particleOpacity="0.2"
       :particlesNumber="50"
       shapeType="circle"
       :particleSize="4"
@@ -11,7 +11,7 @@
       :linesWidth="1"
       :lineLinked="true"
       :lineOpacity="0.4"
-      :linesDistance="200"
+      :linesDistance="150"
       :moveSpeed="3"
       :hoverEffect="true"
       hoverMode="grab"
@@ -20,19 +20,20 @@
     >
     </vue-particles>
     <NavOne />
-    <BannerOne />
+    <MyBanner/>
+<!--    <BannerOne />-->
     <TodayPrice />
     <Features />
-    <Counter />
-<!--    <ServiceOne />-->
-<!--    <ServiceTwo />-->
-<!--    <Video />-->
-<!--    <Screenshots />-->
+<!--    <Counter />-->
+<!--&lt;!&ndash;    <ServiceOne />&ndash;&gt;-->
+<!--&lt;!&ndash;    <ServiceTwo />&ndash;&gt;-->
+<!--&lt;!&ndash;    <Video />&ndash;&gt;-->
+<!--&lt;!&ndash;    <Screenshots />&ndash;&gt;-->
     <Pricing />
-<!--    <Testimonial />-->
-<!--    <ClientsLogo />-->
-<!--    <BlogHome />-->
-<!--    <DownloadApp />-->
+<!--&lt;!&ndash;    <Testimonial />&ndash;&gt;-->
+<!--&lt;!&ndash;    <ClientsLogo />&ndash;&gt;-->
+<!--&lt;!&ndash;    <BlogHome />&ndash;&gt;-->
+<!--&lt;!&ndash;    <DownloadApp />&ndash;&gt;-->
     <Footer />
   </div>
 
@@ -53,6 +54,7 @@
   import BlogHome from "../components/BlogHome";
   import DownloadApp from "../components/DownloadApp";
   import TodayPrice from "~/components/TodayPrice";
+  import MyBanner from "~/components/MyBanner";
   export default {
     components: {
       DownloadApp,
@@ -70,6 +72,7 @@
       BannerOne,
       NavOne,
       TodayPrice,
+      MyBanner
     }
   }
 </script>

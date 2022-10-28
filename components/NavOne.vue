@@ -26,16 +26,16 @@
                                         </div>
 
                                           <ul class="main-nav">
-                                            <li class="active"><nuxt-link to="/"><font  color="#f0f8ff" size="5">Home</font></nuxt-link>
+                                            <li><a class=navigate href=#>Home</a></li>
 <!--                                                  <ul>-->
 <!--                                                      <li class="active"><nuxt-link to="/">Home 1</nuxt-link></li>-->
 <!--                                                      <li><nuxt-link to="/index2">Home 2</nuxt-link></li>-->
 <!--                                                  </ul>-->
                                             </li>
-                                            <li><nuxt-link to="/WhitePaper"><font color="#f0f8ff" size="5">WhitePaper</font></nuxt-link></li>
-<!--                                            <li><a href=#><font size="4">WHITEPAPER</font></a></li>-->
-                                            <li><a href="#app"><font color="#f0f8ff" size="5">Swap Diamond</font></a></li>
-                                            <li><a href="#pricing"><font color="#f0f8ff" size="5">Pricing</font></a></li>
+<!--                                            <li><nuxt-link to="/WhitePaper"><font color="#f0f8ff" size="5">WhitePaper</font></nuxt-link></li>-->
+                                            <li><a class=navigate href=assets/pdf/WHITEPAPER.pdf>WHITEPAPER</a></li>
+                                            <li><a class=navigate href="#whitePaper">Swap Diamond</a></li>
+                                            <li><a class=navigate href="#showPrice">Pricing</a></li>
 <!--                                            <li><a href="#"><font color="#f0f8ff" size="4">Twitter</font></a>-->
 <!--                                                  <ul>-->
 <!--                                                      <li><nuxt-link to="/blog">Blog Posts</nuxt-link></li>-->
@@ -108,4 +108,28 @@
 </script>
 
 <style scoped>
+.main-menu-wrap .navigate:hover {
+    /*border-color: #36324a;*/
+    /*background: #9fcdff;*/
+    color: #f77fdf;
+}
+
+.sticky .main-menu-wrap .navigate {
+    border-color: #5b39c9;
+    color: #ffe8a1;
+    /*background: #ffe8a1;*/
+}
+
+.sticky .main-menu-wrap .navigate:hover {
+    /*border-color: #36324a;*/
+    /*background: #9fcdff;*/
+    color: #f77fdf;
+}
+
+.navigate {
+  color: #fff;
+  font-size: 160%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 </style>

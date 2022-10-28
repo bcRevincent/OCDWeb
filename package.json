@@ -21,6 +21,7 @@
     "vue-pdf": "^4.3.0"
   },
   "devDependencies": {
-    "less-loader": "^7.3.0"
+    "less-loader": "^7.3.0",
+    "vue-pdf-signature": "^4.2.7"
   }
 }

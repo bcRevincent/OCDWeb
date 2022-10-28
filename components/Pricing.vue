@@ -130,7 +130,7 @@ export default {
 <style scoped>
 .pricing {
   background: rgba(0, 0, 0, 0.5);
-  /*background-image: url('~@/static/assets/img/bgi.jpg');*/
+  background-image: url('~@/static/assets/img/bgi.jpg');
   background-size: 100%;
   width: 60%;
   height: 40vh;
