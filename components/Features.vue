@@ -26,7 +26,7 @@
                       <!-- single feature inner -->
                       <div class="single-feature-inner text-center">
                           <div class="feature-icon"><img src="/assets/img/icons/project-management.svg" class="svg" alt=""></div>
-                        <h5><font color="#f0f8ff">Lab Diamond<br> Offering</font></h5>
+                        <h5><font color="#FFCC22">Lab Diamond<br> Offering</font></h5>
                         <p><font color="#f0f8ff">This is the first project to integrate laboratory diamonds with blockchain technology.</font></p>
                       </div>
                       <!-- End of single feature inner -->
@@ -36,7 +36,7 @@
                       <!-- single feature inner -->
                       <div class="single-feature-inner text-center">
                           <div class="feature-icon"><img src="/assets/img/icons/solution.svg" class="svg" alt=""></div>
-                        <h5><font color="#f0f8ff">Decentralized Sales<br> Platform</font></h5>
+                        <h5><font color="#FFCC22">Decentralized Sales<br> Platform</font></h5>
                           <p><font color="#f0f8ff">One Carat Diamond is the first and the largest platform
 with the largest diamond laboratories in the world, selling through their own token OCD.</font></p>
                       </div>
@@ -47,7 +47,7 @@ with the largest diamond laboratories in the world, selling through their own to
                       <!-- single feature inner -->
                       <div class="single-feature-inner text-center">
                           <div class="feature-icon"><img src="/assets/img/icons/planning.svg" class="svg" alt=""></div>
-                        <h5><font color="#f0f8ff">Staking Mining</font></h5>
+                        <h5><font color="#FFCC22">Staking Mining</font></h5>
                           <p><font color="#f0f8ff">You only need to stake your own tokens anytime, anywhere, and you can get new tokens without relying powerful computational resources.</font></p>
                       </div>
                       <!-- End of single feature inner -->
@@ -57,7 +57,7 @@ with the largest diamond laboratories in the world, selling through their own to
                       <!-- single feature inner -->
                       <div class="single-feature-inner text-center">
                           <div class="feature-icon"><img src="/assets/img/icons/goal.svg" class="svg" alt=""></div>
-                        <h5><font color="#f0f8ff">Fulfilling Redemption<br> Promise</font></h5>
+                        <h5><font color="#FFCC22">Fulfilling Redemption<br> Promise</font></h5>
                           <p><font color="#f0f8ff">We are committed to exchange diamonds with your tokens on a pro rata basis, independent of current diamond and token prices.</font></p>
                       </div><!-- End of single feature inner -->
                       </swiper-slide>

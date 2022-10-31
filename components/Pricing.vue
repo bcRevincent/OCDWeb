@@ -12,7 +12,7 @@ export default {
   },
   methods: {
     DrawLine() {
-      let myChart = this.$echarts.init(document.getElementById('showPrice'), 'light')
+      let myChart = this.$echarts.init(document.getElementById('showPrice'), 'light', {locale: "En"})
       var option;
 
       function randomData() {
@@ -38,14 +38,22 @@ export default {
         title: {
           text: 'History Average Price of One Carat Lab Diamond',
           textStyle: {
-            color: '#FFF',
+            color: '#E6E6FA',
             fontStyle: 'italic',
             fontWeight: 'bolder',
             fontSize: 30,
           }
         },
         tooltip: {
+          backgroundColor: "transparent",
           trigger: 'axis',
+          borderWidth: 0,
+          textStyle: {
+            color: '#00FF00',
+            fontSize: 20,
+            fontWeight: 'bold',
+            fontFamily: 'Courier New',
+          },
           formatter: function (params) {
             params = params[0];
             var date = new Date(params.name);
@@ -88,10 +96,17 @@ export default {
           {
             name: 'Fake Data',
             type: 'line',
+            markPoint: {
+              data: [{type: 'max', name: 'Maximum'},
+                {type: 'min', name: 'Minimum'}]
+            },
+            markLine: {
+              data: [{type: 'average', name: 'Average'}]
+            },
             emphasis: {
-      itemStyle: {
-        // 高亮时点的颜色。
-        color: 'blue'
+                itemStyle: {
+                  // 高亮时点的颜色。
+                  color: 'blue'
       },
       label: {
         show: true,
@@ -102,7 +117,7 @@ export default {
             showSymbol: false,
             data: data,
             lineStyle: {
-                                color: '#FF00FF',
+                                color: '#FFCC22',
                                 width: 4
                             }
           }
@@ -130,7 +145,7 @@ export default {
 <style scoped>
 .pricing {
   background: rgba(0, 0, 0, 0.5);
-  background-image: url('~@/static/assets/img/bgi.jpg');
+  /*background-image: url('~@/static/assets/img/bgi.jpg');*/
   background-size: 100%;
   width: 60%;
   height: 40vh;
